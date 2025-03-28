@@ -63,17 +63,17 @@ button:hover{
 }
 
 
-/* Hamburger Menu */
+/* Hamburger Menu *
 .hamburger {
   display: none;
   font-size: 24px;
   background: none;
   border: none;
   cursor: pointer;
-}
+}*/
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .nav-links {
     display: none;
     flex-direction: column;
@@ -97,4 +97,4 @@ button:hover{
   .btn {
     flex-direction: column;
   }
-}
+} */
