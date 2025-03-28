@@ -8,11 +8,6 @@ export default function Header() {
 
         <img src="./pic/logo.jpg" alt="logo" className='logo' height={100} width={120}></img>
 
-        {/* Hamburger Menu Button
-        <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
-          ☰
-        </button> */}
-
         <ul className='nav-links'>
           <li><a href='/home'>Home</a></li>    
           <li><a href='/category'>Category</a></li>    
