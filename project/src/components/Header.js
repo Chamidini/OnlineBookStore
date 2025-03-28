@@ -1,12 +1,17 @@
 import React from 'react'
 import './Header.css'
-// import logo from './src/pic/logo.jpg'
 
 export default function Header() {
   return (
     <header className='header'>
       <nav className='nav'>
+
         <img src="./pic/logo.jpg" alt="logo" className='logo' height={100} width={120}></img>
+
+        {/* Hamburger Menu Button
+        <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>
+          ☰
+        </button> */}
 
         <ul className='nav-links'>
           <li><a href='/home'>Home</a></li>    
@@ -15,10 +20,10 @@ export default function Header() {
           <li><a href='/checkout'>Checkout</a></li>    
         </ul>
 
-        <ul className='btn'>
-          <li><button>Log in</button></li>    
-          <li><button>Sign in</button></li>    
-        </ul>
+        <div className='btn'>
+          <button className="border px-3 py-1 rounded-md">Sign in</button>
+          <button>Log in</button>
+        </div>
 
       </nav>
     </header>
