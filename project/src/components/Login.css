@@ -41,11 +41,18 @@ h1{
   margin: 5px;
 }
 
+.login-btn:hover{
+  color: white;
+}
+.signup-btn:hover{
+  color: white;
+}
+
 .text a{
   color: black;
 }
 
-.text a :hover{
+.text a:hover{
   color: rgb(141, 210, 213);
 }
 

@@ -9,13 +9,13 @@ export default function Login() {
         <input type='text' className='input' placeholder='Username'/>
         <input type='password' className='input' placeholder='Password'/>
 
-        <div className='login-btn'>Log in</div>
+        <button className='login-btn'>Log in</button>
 
         <p className='text'><a href='#'>Forgot Password?</a></p>
 
         <p className='text'>or</p>
 
-        <div className='signup-btn'>Sign up</div>
+        <button className='signup-btn'>Sign up</button>
 
       </div>
     </div>
