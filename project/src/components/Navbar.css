@@ -1,0 +1,28 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8DD2D5;
+}
+
+img{
+  margin: 1rem;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+  list-style: none;
+  font-weight:600;
+}
+
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+}
