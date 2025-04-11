@@ -132,8 +132,38 @@ const Home = () => {
         ))}
         </div>
       </div>
+
+      <div className="homepage-container">
+  
+        <div className="shelf-section">
+          <div className="shelf-content">
+            <img
+              src="./pic/bg8.jpg"
+              alt="Books on shelf"
+              className="book-shelf-img"
+            />
+            <div className="text-content">
+              <h2>
+                Your favourite <span className="highlight">Reads</span><br />
+                <span className="highlight">Are Here!</span>
+              </h2>
+              <p>
+                Buy your favourite books online with ease! Enjoy exclusive offers and discounts on selected titles.
+                Dive into our collection and find special deals that make reading more affordable. Shop now and
+                unlock more savings with every purchase!
+              </p>
+              <div className="stats">
+                <div><span className="number">800+</span><br />Book Listing</div>
+                <div><span className="number">1K+</span><br />Registered Members</div>
+                <div><span className="number">50+</span><br />Branch Count</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-    
+
   );
 };
 

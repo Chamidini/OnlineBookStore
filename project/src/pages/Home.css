@@ -150,3 +150,114 @@
   color: #e67e22;
   margin-top: 8px;
 }
+
+
+/*bellow part (black colour) */
+
+.homepage-container {
+  font-family: Bona Nova;
+  background-color: #000;
+  color: #fff;
+}
+
+.shelf-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.shelf-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 2rem;
+}
+
+.book-shelf-img {
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.text-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.highlight {
+  color: #f9b233;
+}
+
+.text-content p {
+  font-size: 1rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.stats div {
+  font-size: 0.9rem;
+  color: #f9b233;
+}
+
+.stats .number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #f9b233;
+}
+
+.footer {
+  background-color: #aee1e1;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  color: #000;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.footer-content .logo img {
+  width: 60px;
+  height: auto;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .shelf-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .text-content {
+    text-align: left;
+  }
+}
