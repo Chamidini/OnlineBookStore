@@ -108,11 +108,11 @@
 
 
 
-
-
+//3rd attempt
 
 
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Category.css";
 import { FiShoppingCart } from "react-icons/fi";
 
@@ -198,6 +198,7 @@ const booksData = {
 
 const BookCategoryPage = () => {
   const [search, setSearch] = useState("");
+  const navigate = useNavigate();
 
   const filteredBooks = (category) =>
     booksData[category].filter(
@@ -208,6 +209,10 @@ const BookCategoryPage = () => {
 
   const handleAddToCart = (book) => {
     alert(`Added "${book.title}" to cart.`);
+  };
+
+  const handleImageClick = (book) => {
+    navigate("/book-details", { state: { book } });
   };
 
   return (
@@ -228,11 +233,17 @@ const BookCategoryPage = () => {
           <div className="book-grid">
             {filteredBooks(category).map((book, index) => (
               <div key={index} className="book-card">
-                <img src={book.image} alt={book.title} className="book-image" />
+                <img
+                  src={book.image}
+                  alt={book.title}
+                  className="book-image"
+                  onClick={() => handleImageClick(book)}
+                  style={{ cursor: "pointer" }}
+                />
                 <h3 className="book-title">{book.title}</h3>
                 <p className="book-author">{book.author}</p>
                 <p className="book-price">{book.price}</p>
-                <button onClick={() => handleAddToCart(book)} className="add-to-cart-button">
+                <button onClick={() => handleAddToCart(book)} className="btn add">
                   <FiShoppingCart className="cart-icon" />
                 </button>
               </div>
