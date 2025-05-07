@@ -143,9 +143,13 @@ const Home = () => {
               className="book-shelf-img"
             />
             <div className="text-content">
-              <h2>
+              {/* <h2>
                 Your favourite <span className="highlight">Reads</span><br />
                 <span className="highlight">Are Here!</span>
+              </h2> */}
+              <h2 className="highlight">
+                Your favourite Reads<br />
+                Are Here!
               </h2>
               <p>
                 Buy your favourite books online with ease! Enjoy exclusive offers and discounts on selected titles.
