@@ -26,7 +26,8 @@ export default function Narbar() {
         <li><NavLink  to='category'>Category</NavLink ></li>
         <li><NavLink to='cart'>Cart</NavLink></li>
         <li><NavLink  to='/checkout'>Checkout</NavLink ></li>
-        <li><NavLink  to='/login'>Login</NavLink ></li>
+        <li><NavLink  to='/signup' className='signup'>Sign up</NavLink ></li>
+        <li><NavLink  to='/login' className='login'>Login</NavLink ></li>
       </ul>
     </nav>
   )
