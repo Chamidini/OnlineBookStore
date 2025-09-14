@@ -6,8 +6,16 @@ export default function Login() {
     <div className='page'>
       <div className='cover'>
         <h1>Book Shop</h1>
-        <input type='text' className='input' placeholder='Username'/>
-        <input type='password' className='input' placeholder='Password'/>
+        {/* <input type='text' className='input' placeholder='Username'/>
+        <input type='password' className='input' placeholder='Password'/> */}
+
+        <div className="form-group">
+          <input type="text" className="input" placeholder='Username' />
+        </div>
+
+        <div className="form-group">
+          <input type="password" className="input" placeholder='Password' />
+        </div>
 
         <button className='login-btn'>Log in</button>
 
