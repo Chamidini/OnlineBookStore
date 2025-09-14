@@ -1,0 +1,199 @@
+/* .category-section {
+  background-image: url('https://cdn.pixabay.com/photo/2016/11/29/04/17/bookshelf-1869616_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.category-title{
+  font-size: 2.5rem;
+  color: #fff;
+  font-family: Bona Nova;
+  color: black;
+  margin-bottom: 40px;
+
+}
+
+.category-book-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+}
+
+.category-book-card {
+  background-color: rgba(141, 210, 213, 0.3);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 200px;
+  transition: transform 0.3s ease;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.book-author {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.book-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e67e22;
+  margin-top: 8px;
+} */
+
+
+
+
+
+
+/* BookCategoryPage.css */
+
+.page-container {
+  padding: 1rem;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.header input {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.cart-icon {
+  font-size: 1.8rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.category-section {
+  margin-top: 2rem;
+}
+
+.category-section h2 {
+  font-family: Bona Nova;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.category-book-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.book-image {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Not necessarily(also included in Home.css) */
+
+.book-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.book-author {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.book-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e67e22;
+  margin-top: 8px;
+}
+
+.add-to-cart-button {
+  margin-top: 0.5rem;
+  
+  padding: 0.5rem 0.75rem;
+  background-color: rgba(141, 210, 213);
+  color: black;
+  border:none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: rgba(141, 210, 213);
+  color: white;
+}
+
+.add-to-cart-button .cart-icon{
+  width: 20px;
+  height: 20px;
+}
+
+/* ----------------------------- */
+
+.book-grid {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+}
+
+.book-card {
+  background-color: rgba(141, 210, 213, 0.3);
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 200px;
+  transition: transform 0.3s ease;
+  text-align: center;
+  font-family: Poppins;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
