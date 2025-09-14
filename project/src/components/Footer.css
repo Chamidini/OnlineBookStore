@@ -1,0 +1,33 @@
+.footer {
+  background-color: #8DD2D5;
+  padding: 10px;
+  text-align: center;
+  height: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  /* position: fixed; */
+  bottom: 0;
+  /* width: 100%; */
+}
+
+.social_media{
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+}
+
+a:hover{
+  color: white;
+}
+
+.links{
+  padding-right: 60px;
+}
+
+/* p{
+  font-family: poppins;
+} */
