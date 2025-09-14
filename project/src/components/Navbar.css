@@ -59,6 +59,11 @@ nav .menu span{
   border-radius: 0.2rem;
 }
 
+nav .login, .signup{
+  background-color: #1fa6af;
+  color: white;
+}
+
 @media(max-width: 480px){
   nav .menu{
     display: flex;
