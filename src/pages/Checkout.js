@@ -14,6 +14,19 @@ import React from 'react';
 import './Checkout.css';
 
 function Checkout() {
+
+  const navigate = useNavigate();
+
+  const handlePayNow = (e) => {
+    e.preventDefault(); // prevent form refresh
+
+    // Later this will come from backend (orderId after saving order)
+    const orderId = Math.floor(Math.random() * 100000);
+
+    // Navigate to Order Confirmation page with orderId
+    navigate(`/order-confirmation/${orderId}`);
+  };
+
   return (
     <div className="checkout-container">
       <h2 className="checkout-title">Checkout Details</h2>
@@ -26,9 +39,13 @@ function Checkout() {
           <input type="text" placeholder="Sending Address" required />
           <select required>
             <option value="">Select Province</option>
-            <option value="province1">Province 1</option>
-            <option value="province2">Province 2</option>
-            <option value="province3">Province 3</option>
+            <option value="province1">Southern Province</option>
+            <option value="province2">Central Province</option>
+            <option value="province3">Eastern Province</option>
+            <option value="province4">Northern Province</option>
+            <option value="province5">Sabaragamuwa Province</option>
+            <option value="province6">Western Province</option>
+            <option value="province7">Uva Province</option>
           </select>
         </div>
         <div className="form-group">
