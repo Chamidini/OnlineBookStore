@@ -115,6 +115,8 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Category.css";
 import { FiShoppingCart } from "react-icons/fi";
+import { Link } from "react-router-dom";
+
 
 const booksData = {
 
@@ -224,7 +226,7 @@ const BookCategoryPage = () => {
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <FiShoppingCart className="cart-icon" />
+        <Link to="/cart"><FiShoppingCart className="cart-icon" /></Link>
       </div>
 
       {Object.keys(booksData).map((category) => (
@@ -243,7 +245,7 @@ const BookCategoryPage = () => {
                 <h3 className="book-title">{book.title}</h3>
                 <p className="book-author">{book.author}</p>
                 <p className="book-price">{book.price}</p>
-                <button onClick={() => handleAddToCart(book)} className="btn add">
+                <button onClick={() => handleAddToCart(book)} className="add-to-cart-button">
                   <FiShoppingCart className="cart-icon" />
                 </button>
               </div>

@@ -93,6 +93,7 @@
   font-size: 1.8rem;
   margin-left: 1rem;
   cursor: pointer;
+  color: black;
 }
 
 .category-section {
@@ -153,7 +154,7 @@
 
 .add-to-cart-button {
   margin-top: 0.5rem;
-  
+  font-weight: 200;
   padding: 0.5rem 0.75rem;
   background-color: rgba(141, 210, 213);
   color: black;
