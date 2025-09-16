@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import './Cart.css';
 import { FiShoppingCart } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { BiColor } from 'react-icons/bi';
+
+
 
 const initialCart = [
   {
@@ -21,6 +26,7 @@ const initialCart = [
 
 const Cart = () => {
   const [cartItems, setCartItems] = useState(initialCart);
+  // const navigate = useNavigate();
 
   const updateQuantity = (id, delta) => {
     setCartItems(prev =>
@@ -79,7 +85,8 @@ const Cart = () => {
         <p>Subtotal: <span>Rs. {subtotal}</span></p>
         <p>Shipping: <span>Rs. {shipping}</span></p>
         <p className="total">Total: <span>Rs. {total}</span></p>
-        <button className="checkout-btn">Proceed to Checkout</button>
+        {/* <button className="checkout-btn"><Link to="/checkout">Proceed to Checkout</Link></button>  */}
+        <Link to="/checkout"><button className="checkout-btn">Proceed to Checkout</button></Link>
       </div>
     </div>
   );
