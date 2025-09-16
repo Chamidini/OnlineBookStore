@@ -12,7 +12,7 @@
   font-size: 1.8rem;
   margin-bottom: 1.5rem;
   font-weight: 600;
-  color: 4B330B ;
+  color: #4B330B ;
 }
 
 .checkout-form {
@@ -51,6 +51,7 @@
   border-radius: 8px;
   font-size: 1rem;
   cursor: pointer;
+  width: 200px;
 }
 
 .close-btn {
