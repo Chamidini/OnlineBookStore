@@ -1,5 +1,7 @@
 import React from 'react'
 import "./Login.css"
+import { Link } from "react-router-dom";
+
 
 export default function Login() {
   return (
@@ -23,7 +25,7 @@ export default function Login() {
 
         <p className='text'>or</p>
 
-        <button className='signup-btn'>Sign up</button>
+        <Link to="/signup"><button className='signup-btn'>Sign up</button></Link>
 
       </div>
     </div>
