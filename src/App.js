@@ -12,6 +12,7 @@ import Cart from './pages/Cart';
 import Checkout from './pages/Checkout'; 
 import BookDetails from './pages/BookDetails';
 import Createanaccount from './components/Create-an-account';
+import OrderConfirmation from "./pages/OrderConfirmation";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route path='/book-details' element={<BookDetails />} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<Createanaccount/>} />
+        <Route path="/order-confirmation" element={<OrderConfirmation />} />
       </Routes>
       
       <Footer/>
