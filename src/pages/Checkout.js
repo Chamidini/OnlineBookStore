@@ -1,18 +1,8 @@
-// import React from 'react'
-// import "./Checkout.css";
-
-// export default function Checkout() {
-//   return (
-//     <h1>
-//       this is checkout page
-//     </h1>
-//   )
-// }
-
-
 import React from 'react';
 import './Checkout.css';
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 function Checkout() {
 
@@ -55,7 +45,7 @@ function Checkout() {
         </div>
         <div className="button-group">
           <button type="submit" className="pay-btn">Pay Now</button>
-          <button type="button" className="close-btn">Close Checkout Page</button>
+          <Link to="/category"><button type="button" className="close-btn">Close Checkout Page</button></Link>
         </div>
         <p className="cancel-note">*Contact us to cancel your order</p>
       </form>
