@@ -1,32 +1,3 @@
-// import React from 'react'
-// import './Home.css'
-
-// export default function Home() {
-//   return (
-//     <div className='homepage'>
-
-//       <div className='intro'>
-//         <img src="./pic/bg7.jpg" alt="bg-image"></img>
-//         <div className='welcome-text'>
-//           <h1 className='topic'>The Book Lover's Dreamland Awaits!</h1>
-
-//           <p>Welcome to the ultimate book lover's paradise! Join our<br/> community and contribute to the ever-evolving library of <br/>stories, where every book has a chance to inspire someone new.</p>
-//         </div>
-
-//       </div >
-
-//       <div className='best-picks'>
-//         <img src="./pic/bg3.jpg" alt="bg-image"></img>
-//         <h1 className='topic'>The Book Lover's Dreamland Awaits!</h1>
-
-//         <div className='best-books'></div>
-//       </div>
-
-//     </div>
-//   )
-// }
-
-
 import React from "react";
 import "./Home.css";
 
