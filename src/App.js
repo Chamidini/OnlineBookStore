@@ -37,7 +37,7 @@ function App() {
         <Route path='/book-details' element={<BookDetails />} />
         <Route path='/login' element={<Login/>} />
         <Route path='/signup' element={<Createanaccount/>} />
-        <Route path="/order-confirmation" element={<OrderConfirmation />} />
+        <Route path="/order-confirmation" element={<OrderConfirmation/>} />
       </Routes>
       
       <Footer/>
