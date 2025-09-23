@@ -14,10 +14,11 @@ export default function OrderConfirmation() {
         {id && <p className="order-id">Your Order ID: <strong>{id}</strong></p>}
 
         <div className="next-actions">
-          <Link to="/orders" className="btn">View My Orders</Link>
-          <Link to="/home" className="btn btn-secondary">Continue Shopping</Link>
+          {/* <Link to="/orders" className="btn">View My Orders</Link> */}
+          <Link to="/category" className="btn btn-secondary">Continue Shopping</Link>
         </div>
       </div>
     </div>
   );
 }
+
