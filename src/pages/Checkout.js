@@ -44,8 +44,12 @@ function Checkout() {
           <input type="text" placeholder="Card Number" required />
         </div>
         <div className="button-group">
-          <button type="submit" className="pay-btn">Pay Now</button>
-          <Link to="/category"><button type="button" className="close-btn">Close Checkout Page</button></Link>
+          <Link to="/order-confirmation">
+               <button type="submit" className="pay-btn">Pay Now</button>
+          </Link>
+          <Link to="/category">
+               <button type="button" className="close-btn">Close Checkout Page</button>
+          </Link>
         </div>
         <p className="cancel-note">*Contact us to cancel your order</p>
       </form>
@@ -54,3 +58,4 @@ function Checkout() {
 }
 
 export default Checkout;
+
