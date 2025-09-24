@@ -10,7 +10,7 @@ export default function Createanaccount() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  // Handle form submit
+  //Handle form submit
   const handleSignup = async () => {
     try {
       const response = await fetch("http://localhost:8080/api/auth/signup", {
