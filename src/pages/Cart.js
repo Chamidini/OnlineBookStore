@@ -17,10 +17,10 @@ const initialCart = [
   },
   {
     id: 2,
-    title: 'To Kill a Mockingbird',
-    price: 1245,
+    title: 'Harry Potter and the Sorcerer’s Stone',
+    price: 995,
     quantity: 1,
-    image: './pic/book2.jpg'
+    image: './pic/book18.jpg'
   }
 ];
 
