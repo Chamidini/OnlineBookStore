@@ -29,7 +29,7 @@ function App() {
       {/* <BookDetails/> */}
 
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<Login/>} />
         <Route path='/home' element={<Home/>} />
         <Route path='/category' element={<Category/>} />
         <Route path='/cart' element={<Cart/>} />
